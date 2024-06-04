@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: flyway-imp
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  datasource:
+    url: jdbc:postgresql://localhost:5432/local6
+    username: chandan.thakur1
+    password: root
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+server:
+  port: 8080
